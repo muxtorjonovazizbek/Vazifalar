@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+
+}
+
+a {
+    width: 100px;
+    background-color: #dc7d09;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+a:hover  {
+    color: rgb(32, 157, 211);
+}
+
+a :active {
+    color: red;
+}
